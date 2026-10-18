@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff8f1">
+  <meta name="description" content="Meet Pip, Junior Dream Engineer at the Midnight Nursery. A tiny portfolio for the dreams that help a neighborhood sleep.">
+  <title>Pip's Dream Terminal ✦ Midnight Nursery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <div class="topline"><span>✳ MIDNIGHT NURSERY NETWORK</span><span class="online"><i></i> DREAM DESK: OPEN</span><span class="counter-label">VISITORS <b id="counter">000001</b></span></div>
+    <header class="masthead">
+      <a class="wordmark" href="#home" aria-label="Pip's Dream Terminal home">pip<span>✦</span></a>
+      <nav aria-label="Main navigation"><a href="#about">Meet Pip</a><a href="#work">Dream work</a><a href="#story">Origin story</a></nav>
+      <button id="moodToggle" class="pill-button" type="button" aria-pressed="false"><span aria-hidden="true">☾</span> <span id="moodLabel">Lights out</span></button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">✦ A LITTLE PORTFOLIO FROM THE NIGHT SHIFT ✦</p>
+          <h1>Good dreams<br>are <em>made</em> here.</h1>
+          <p class="intro">Hi, I’m Pip — a sleepy, curious dream engineer. I make soft landings for busy little minds.</p>
+          <div class="hero-actions"><a class="button primary" href="#work">Explore my work <span>↓</span></a><button class="button soft" id="soundToggle" type="button" aria-pressed="false"><span id="soundIcon">♫</span> <span id="soundLabel">Play a lullaby</span></button></div>
+          <div class="status-note"><span class="status-dot"></span> Currently tuning a cloud to C major</div>
+        </div>
+        <div class="hero-scene" aria-label="Pip, a friendly skull baby in a starry nightcap, sitting on a cloud with a lantern">
+          <div class="sunburst"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <span class="floating-star star-a">✦</span><span class="floating-star star-b">✧</span><span class="floating-star star-c">✦</span>
+          <div class="moon">☾</div>
+          <div class="pip" id="pip" role="img" aria-label="Pip the Skull Baby">
+            <div class="cap"><span class="cap-star">✦</span><span class="cap-tip"></span><span class="bow">♡</span></div>
+            <div class="head"><div class="eye eye-left"><i></i></div><div class="eye eye-right"><i></i></div><div class="cheek cheek-left"></div><div class="cheek cheek-right"></div><div class="smile"></div></div>
+            <div class="bib">PIP</div><div class="body"></div><div class="arm arm-left"></div><div class="arm arm-right"></div>
+          </div>
+          <div class="cloud"><span>☁</span></div>
+          <div class="lantern" aria-hidden="true"><div class="lantern-handle"></div><div class="lantern-glass">☾</div><div class="lantern-base"></div></div>
+          <div class="scene-caption"><span>FIG. 01</span> Pip, on cloud nine (again)</div>
+        </div>
+        <div class="ticker"><span>✦ DREAMS DELIVERED WITH CARE</span><span>✦ NO BAD DREAM LEFT BEHIND</span><span>✦ OPEN LATE, EVERY NIGHT</span><span>✦ DREAMS DELIVERED WITH CARE</span></div>
+      </section>
+
+      <section class="about section-pad" id="about">
+        <div class="section-heading"><p class="eyebrow">01 / THE LITTLE ENGINEER</p><h2>Small hands.<br><em>Big dream plans.</em></h2></div>
+        <div class="about-card"><div class="stamp">NURSERY<br>APPRENTICE<br><b>NO. 07</b></div><p>Junior Dream Engineer at the Midnight Nursery. I’m a gentle little skull baby with a starry nightcap, warm glow-eyes, and a smile that goes a bit crooked when I’m sleepy.</p><p class="handwritten">Curious, clumsy, and absolutely not a fan of silence. ♡</p><div class="about-footer"><span>SPECIES / BABY</span><span>SHIFT / AFTER DARK</span><span>MOOD / SOFTLY GIGGLING</span></div></div>
+      </section>
+
+      <section class="work section-pad" id="work">
+        <div class="section-heading work-heading"><div><p class="eyebrow">02 / THE DREAM DEPARTMENT</p><h2>Things I’ve <em>made</em></h2></div><p class="section-aside">Little comforts for the neighborhood<br>creatures who can’t quite switch off.</p></div>
+        <div class="projects">
+          <article class="project-card music-card"><div class="project-top"><span>PROJECT 001</span><span class="project-status">● IN TUNE</span></div><div class="music-box-art"><div class="music-box"><span class="music-note">♪</span><span class="music-note note-two">♫</span><div class="box-lid">✦</div><div class="box-body"><span>pip's lullaby</span></div></div><div class="sound-wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><h3>The Lullaby Lab</h3><p>A tiny music box for thoughts that need a softer ending. Tap the hero button to hear its three-note bedtime loop.</p><button class="text-button play-inline" type="button">▶ Try the lullaby <span>↗</span></button></article>
+          <article class="project-card lamp-card"><div class="project-top"><span>PROJECT 002</span><span class="project-status">● GLOWING</span></div><div class="lamp-art"><div class="lamp-glow"></div><div class="lamp-shade">☾</div><div class="lamp-stem"></div><div class="lamp-foot"></div><span class="lamp-star">✦</span></div><h3>The Nightlight Shelf</h3><p>Three warm little moons, each tuned for a different kind of dark. Switch the room mood up top and watch them glow.</p><button class="text-button" id="lampButton" type="button">☼ Turn the light up <span>↗</span></button></article>
+          <article class="project-card route-card"><div class="project-top"><span>PROJECT 003</span><span class="project-status">● OUT TONIGHT</span></div><div class="map-art"><div class="map-grid"></div><svg viewBox="0 0 360 180" role="img" aria-label="A dream delivery route across rooftops"><path class="route-path" d="M25 135 C75 35 95 145 150 80 S235 28 265 92 S312 145 340 38"/><circle cx="25" cy="135" r="7"/><circle cx="150" cy="80" r="6"/><circle cx="265" cy="92" r="6"/><circle cx="340" cy="38" r="8"/></svg><span class="map-label label-one">home</span><span class="map-label label-two">mossy roof</span><span class="map-label label-three">you ✦</span></div><h3>Dream Delivery Routes</h3><p>Tonight’s route: three rooftops, one lost yawn, and a small detour for a cloud that looked lonely.</p><a class="text-button" href="#story">Follow the route <span>↗</span></a></article>
+        </div>
+      </section>
+
+      <section class="story section-pad" id="story">
+        <div class="story-header"><p class="eyebrow">03 / HOW THE NIGHT BEGAN</p><h2>Every dream has<br>a <em>first little spark.</em></h2><p>Scroll the night forward. Pip’s story is just getting started.</p></div>
+        <div class="story-track"><div class="story-line"><div class="story-progress" id="storyProgress"></div></div>
+          <article class="story-scene"><div class="scene-number">01</div><div class="scene-illustration star-jar">✧<span>✦</span>✧</div><div><p class="eyebrow">A QUIET LITTLE ARRIVAL</p><h3>A knock at the nursery door</h3><p>One rainy midnight, a tiny bundle arrived on the doorstep. Inside: a starry cap, two warm pinpricks of light, and a very determined yawn.</p></div></article>
+          <article class="story-scene"><div class="scene-number">02</div><div class="scene-illustration music-scene">♫<span>♪</span>♫</div><div><p class="eyebrow">THE FIRST INVENTION</p><h3>Silence felt too big</h3><p>The nursery was lovely, but much too quiet. Pip wound a little music box until the room filled with a tune soft enough for even the shyest ghost.</p></div></article>
+          <article class="story-scene"><div class="scene-number">03</div><div class="scene-illustration sunrise">☼<span>✦</span></div><div><p class="eyebrow">TONIGHT, AND EVERY NIGHT</p><h3>There’s room for one more</h3><p>Now Pip takes the lantern up to the rooftops, leaving a little light wherever sleep is hard to find. If you’re still awake, there’s a spot on the cloud for you.</p></div></article>
+        </div>
+      </section>
+
+      <section class="toybox section-pad">
+        <div class="toy-copy"><p class="eyebrow">✦ A SMALL BREAK IN THE WORKDAY</p><h2>Stack a tiny<br><em>dream tower.</em></h2><p>Tap a block to add it. Tap the tower to start over. Pip says it’s an important structural test.</p><button class="button primary" id="addBlock" type="button">Add a block <span>＋</span></button></div>
+        <div class="toy-stage" id="toyStage" role="button" tabindex="0" aria-label="Dream block tower. Activate to clear the blocks"><div class="tower" id="tower"><div class="block block-one">✦</div><div class="block block-two">☾</div><div class="block block-three">♡</div></div><div class="toy-floor"></div><span class="toy-hint">TAP THE TOWER TO RESET</span><div class="toy-count"><b id="blockCount">3</b><span>blocks high</span></div></div>
+      </section>
+
+      <section class="guestbook section-pad" id="guestbook"><div><p class="eyebrow">04 / THE VISITOR WALL</p><h2>Leave a <em>little wish.</em></h2><p>Write a bedtime wish for Pip. It appears below on this device only; visitors on other devices won’t see it.</p></div><form id="wishForm"><label for="wishInput">WRITE A BEDTIME WISH</label><div class="wish-row"><input id="wishInput" maxlength="72" placeholder="May everyone find their soft place..." required><button class="button primary" type="submit">Pin to this device ✦</button></div><p class="form-note" id="formNote" aria-live="polite">Private to this browser — this is not a shared guestbook.</p><div id="wishWall" class="wish-wall" aria-live="polite"></div></form></section>
+    </main>
+    <footer><a class="wordmark" href="#home">pip<span>✦</span></a><p>Built with a little moonlight at the Midnight Nursery.</p><div><button id="chaosToggle" class="footer-link" type="button">Try silly mode ✦</button><a class="footer-link" href="#home">Back to the top ↑</a></div><small>Track 1: Pip, the Skull Baby · Character canon by haX.baby · Fonts via Google Fonts</small></footer>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="sparkles" aria-hidden="true"></div>
+  <script src="app.js"></script>
+</body>
+</html>
